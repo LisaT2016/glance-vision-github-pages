@@ -5,7 +5,7 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   vite: {
-    base: "/gvweb2026/",
+    base: "/glance-vision-github-pages/",
     environments: {
       // Publishable static files: HTML, CSS, JavaScript, and public images.
       client: { build: { outDir: ".output/public" } },
